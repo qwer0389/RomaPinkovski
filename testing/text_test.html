@@ -1,82 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
+<html lang="ru">
 
-  <body>
-    <h1
-      style="border-style: dashed; border-color: red; background-color: yellow"
-    >
-      Simon and Garfunkel
-    </h1>
-    <div
-      style="
-        border-style: solid;
-        border-color: green;
-        border-width: 1px;
-        padding: 1px;
-        background-image: url(http://fe.it-academy.by/Sites/0045156/Pinkovski_r/SG1998.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-      "
-    >
-      <p style="text-align: right">
-        В 1964 году на лейбле Columbia был выпущен их дебютный альбом
-        <span style="white-space: nowrap">«Wednesday Morning 3AM»</span>.
-        Пластинка прошла практически незамеченной, после чего пути музыкантов
-        пошли врозь.
-      </p>
-      <p style="text-align: center">
-        В это время на долю музыкантов выпал неожиданный успех. Летом 1965 года
-        импресарио Тим Уилсон, известный продюсированием ранних альбомов Дилана,
-        осовременил звучание песни
-        <span style="white-space: nowrap">«The Sounds of Silence»</span>,
-        написанной Саймоном под впечатлением от убийства президента Кеннеди,
-        наложив на неё электрические гитары и ударные. Без ведома авторов новая
-        версия была выпущена синглом и достигла первой строчки в национальных
-        чартах. Эта запись была признана музыкальными критиками квинтэссенцией
-        входившего тогда в моду фолк-рока.
-      </p>
-      <p style="text-align: justify">
-        Хотя Саймон и Гарфанкел были шокированы тем, что их самый успешный сингл
-        был аранжирован и выпущен без их участия, его триумфальное восхождение в
-        чартах заставило их вновь объединить усилия и развернуть своё творчество
-        в сторону приглушённого акустического фолк-рока. За
-        <span style="white-space: nowrap">«The Sounds of Silence»</span>
-        последовали такие жемчужины фолк-рока, как
-        <span style="white-space: nowrap">«A Hazy Shade of Winter»</span> и
-        <span style="white-space: nowrap">«Homeward Bound»</span> — возможно,
-        самые рафинированные и стильные образчики этого направления рок-музыки.
-      </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Футбол</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            width: 100%;
+            background-color: aquamarine;
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .sidebar {
+            width: 12%;
+            height: 490px;
+            background-color: chocolate;
+            float: left;
+            padding: 15px;
+            color: white;
+        }
+
+        .sidebar p {
+            font-size: 25px;
+            font-weight: bolder;
+        }
+
+        .sidebar ul {
+            margin-left: 30px;
+            font-size: 20px;
+            list-style-type: none;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .content {
+            padding-left: 30px;
+            margin-left: 12%; /* Отступ, чтобы контент не накладывался на сайдбар */
+        }
+
+        .content h2 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .content img {
+            float: left;
+            margin-left: 30px;
+            width: 400px;
+        }
+
+        .content p {
+            font-size: 30px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        .indent {
+          margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p>ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</p>
     </div>
-    <div
-      style="
-        border-top: dotted 1px;
-        border-right: double red 3px;
-        border-bottom: solid green 3px;
-        border-left: solid blue 1px;
-        margin-top: 20px;
-        background-image: url(http://fe.it-academy.by/Sites/0045156/Pinkovski_r/skrip.gif);
-      "
-    >
-      <h3>Студийные альбомы</h3>
-      <ul>
-        <li>Wednesday Morning, 3 A.M. (1964)</li>
-        <li>Sounds of Silence (1966)</li>
-        <li>Parsley, Sage, Rosemary and Thyme (1966)</li>
-        <li>The Graduate Original Soundtrack (1967)</li>
-        <li>Bookends (1968)</li>
-        <li>Bridge Over Troubled Water (1970)</li>
-      </ul>
+    <div class="sidebar">
+        <p>Виды спорта:</p>
+        <ul>
+            <li><a href="https://google.com">конькобежный<br> спорт</a></li>
+            <li><a href="https://google.com">биатлон</a></li>
+            <li><a href="https://google.com">футбол</a></li>
+            <li><a href="https://google.com">стрельба из<br> лука</a></li>
+            <li><a href="https://google.com">прыжки в длину</a></li>
+            <li><a href="https://google.com">прыжки в<br> высоту</a></li>
+            <li><a href="https://google.com">фигурное<br> катание</a></li>
+            <li><a href="https://google.com">синхронное<br> плавание</a></li>
+            <li><a href="https://google.com">шахматы</a></li>
+            <li><a href="https://google.com">шашки</a></li>
+        </ul>
     </div>
-    <p style="border-style: solid; border-color: green; border-width: 1px">
-      Несмотря на отдельные яркие песни, альбомы Саймона и Гарфанкела были по
-      большей части неровными и оставляли ощущение недоговорённости. Наиболее
-      радикальные критики были склонны обвинять дуэт в слащавости и
-      стерильности.
-    </p>
-  </body>
+    <div class="content">
+        <h2>ФУТБОЛ</h2>
+        <img src="/home/04_html_css/add/football.jpg" alt="football">
+        <p class="indent">Футбол &mdash; командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или
+            другими частями тела (кроме рук) большее количество раз, чем команда соперника. <br><br>
+            Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих принципов. Эти
+            правила предназначены для приминения на всех уровнях футбола, хотя есть некоторые изменения для таких групп,
+            как юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы очень часто
+            формулировались в общих чертах, которые позволяют упростить их приминения в зависимости от характера игры.</p>
+        <div class="clearfix"></div>
+    </div>
+</body>
+
 </html>
