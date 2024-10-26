@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .first {
+            width: 20%;
+            font-size: 20px;
+            height: 500px;
+            background: url('/home/05_html_css/base/ball3.png') no-repeat left top, 
+                        url('/home/05_html_css/base/ball3.png') no-repeat left bottom, 
+                        url('/home/05_html_css/base/ball3.png') no-repeat right top, 
+                        url('/home/05_html_css/base/ball3.png') no-repeat right bottom;
+            background-size: 100px 100px; /* Настройте размер под ваши изображения */
+            float: left;
+        }
+        .second {
+            background-color: brown;
+            height: 500px;
+            text-align: center;
+            font-size: 18px;
+            width: 60%; /* Занимает 60% ширины */
+            padding: 20px;
+        }
+        .third {
+            background-color: darkmagenta;
+            width: 200px;
+            font-size: 20px;
+            height: 500px;
+            float: right;
+            padding: 20px;
+        }
+        /* clearfix для родительского контейнера */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body class="clearfix">
+    <div class="first">
+        <p>hello hello hello hello</p>
+        <p>hello hello hello hello</p>
+        <p>hello hello hello hello</p>
+        <p>hello hello hello hello</p>
+        <p>hello hello hello hello</p>
+    </div>
+    <div class="second">
+        <p>content content content content</p>
+        <p>content content content content</p>
+        <p>content content content content</p>
+        <p>content content content content</p>
+        <p>content content content content</p>
+    </div>
+    <div class="third">
+        <p>hello hello hello hello</p>
+        <p>hello hello hello hello</p>
+        <p>hello hello hello hello</p>
+        <p>hello hello hello hello</p>
+        <p>hello hello hello hello</p>
+    </div>
+</body>
+</html>
