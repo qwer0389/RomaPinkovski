@@ -364,6 +364,7 @@ body{
     background-color: white;
     margin-left: 400px;
     margin-top: 452px;
+    position: relative;
 }
 .request > span:nth-child(1){
     font-family: 'Roboto';
@@ -421,4 +422,292 @@ body{
 .request > img{
     margin-left: 889px;
     margin-top: 46px;
+}
+.reviews{
+    width: 1920px;
+    height: 940px;
+    background-color: white;
+    position: absolute;
+    top: 3480px;
+}
+.reviews > img{
+    margin-left: 826px;
+    margin-top: 75px;
+}
+.reviews > span:nth-child(2){
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-left: 867px;
+    margin-top: 174px;
+}
+.reviews > span:nth-child(3){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-left: 701px;
+    margin-top: 230px;
+}
+.cards3 > .review{
+    border-radius: 30px;
+    width: 352px;
+    height: 364px;
+    background-color: #F8F8F8;
+    margin-left: 400px;
+    margin-top: 67px;
+    position: absolute;
+    float: left;
+}
+.cards3 > .review > img:nth-child(1){
+    margin-left: 144px;
+    margin-top: 27px;
+}
+.cards3 > .review > img:nth-child(2){
+    margin-left: 109px;
+    margin-top: 18.41px;
+}
+.cards3 > .review > p:nth-child(3){
+    font-family: 'Roboto';
+    width: 304px;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6b6b6b;
+    margin-left: 24px;
+    margin-top: 9.41px;
+    position: absolute;
+}
+.cards3 > .review > p:nth-child(4){
+    font-family: 'Roboto';
+    width: 304px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #6b6b6b;
+    margin-left: 24px;
+    position: absolute;
+    margin-top: 28.41px;
+}
+.cards3 > .review > p:nth-child(5){
+    font-family: 'Roboto';
+    width: 304px;
+    font-weight: 300;
+    font-size: 16px; 
+    line-height: 1.375;
+    color: black;
+    margin-top: 62.41px;
+    margin-left: 24px;
+    position: absolute;
+}
+.cards3 > .review1{
+    border-radius: 30px;
+    width: 352px;
+    height: 400px;
+    background-color: #F8F8F8;
+    position: absolute;
+    margin-left: 784px;
+    margin-top: 67px;
+    float: left; 
+}
+.cards3 > .review1 > img:nth-child(1){
+    margin-left: 144px;
+    margin-top: 27px;
+}
+.cards3 > .review1 > img:nth-child(2){
+    margin-left: 109px;
+    margin-top: 18.41px;
+}
+.cards3 > .review1 > p:nth-child(3){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6b6b6b;
+    position: absolute;
+    width: 304px;
+    margin-left: 24px;
+    margin-top: 9.41px;
+}
+.cards3 > .review1 > p:nth-child(4){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #6b6b6b;
+    position: absolute;
+    width: 304px;
+    margin-left: 24px;
+    margin-top: 28.41px;
+}
+.cards3 > .review1 > p:nth-child(5){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.375;
+    color: black;
+    position: absolute;
+    width: 304px;
+    margin-left: 24px;
+    margin-top: 76.41px;
+}
+.cards3 > .review2{
+    border-radius: 30px;
+    width: 352px;
+    height: 357px;
+    background-color: #F8F8F8;
+    position: absolute;
+    margin-left: 1186px;
+    margin-top: 67px;
+}
+.cards3 > .review2 > img:nth-child(1){
+    margin-left: 144px;
+    margin-top: 27px;
+}
+.cards3 > .review2 > img:nth-child(2){
+    margin-left: 109px;
+    margin-top: 18.41px;
+}
+.cards3 > .review2 > p:nth-child(3){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6b6b6b;
+    position: absolute;
+    width: 304px;
+    margin-left: 24px;
+    margin-top: 9.41px;
+}
+.cards3 > .review2 > p:nth-child(4){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #6b6b6b;
+    position: absolute;
+    width: 304px;
+    margin-left: 24px;
+    margin-top: 28.41px;
+}
+.cards3 > .review2 > p:nth-child(5){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.375;
+    color: black;
+    position: absolute;
+    width: 304px;
+    margin-left: 24px;
+    margin-top: 62.41px;
+}
+.news{
+    width: 1920px;
+    height: 964px;
+    background-color: #F8F8F8;
+    float: left;
+    position: relative;
+    top: 251px;
+}
+.news > span:nth-child(1){
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 134px;
+}
+.news > span:nth-child(2){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 400px;
+    margin-top: 190px;
+    position: absolute;
+}
+.news > img:nth-child(3){
+    margin-left: 279px;
+    margin-top: 177px;
+}
+.news > .box4{
+    position: absolute;
+}
+.news > .box4 > .top > img:nth-child(1){
+    margin-left: 400px;
+    float: left;
+}
+.news > .box4 > .top1{
+    width: 256px;
+    height: 320px;
+    background-image: url(/home/Maket/img/plush1.png);
+    background-repeat: no-repeat;
+    margin-left: 32px;
+    float: left;
+}
+.news > .box4 > .top1 > span:nth-child(1){
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 157px;
+}
+.news > .box4 > .top1 > span:nth-child(2){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 219px;
+}
+.news > .box4 > .top1 > img:nth-child(3){
+    margin-left: 76px;
+    margin-top: 220px;
+}
+.news > .box4 > .top2{
+    width: 256px;
+    height: 256px;
+    background-image: url(/home/Maket/img/plush2.png);
+    background-repeat: no-repeat;
+    margin-left: 1264px;
+}
+.news > .box4 > .top2 > span:nth-child(1){
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 176px;
+}
+.news > .box4 > .top2 > span:nth-child(2){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    color: white;
+    margin-left: 20px;
+    margin-top: 219px;
+    position: absolute;
+}
+.news > .box4 > .top2 > img:nth-child(3){
+    margin-left: 76px;
+    margin-top: 220px;
 }
