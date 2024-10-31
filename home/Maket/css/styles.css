@@ -2,18 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 html{
 
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-}
-    
-body{
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-}
 }
 .container {
     margin: 0 auto;
@@ -100,9 +94,10 @@ body{
     margin-left: 24px;
     margin-top: 35px;
 }
-.mask > img{
-    padding-top: 15px;
-    float: right;
+.mask{
+    background-image: url(../img/Mask\ group.png);
+    background-size: 100%;
+    height: 1080px;
 }
 .textmask{
     font-family: 'Roboto';
@@ -111,10 +106,7 @@ body{
     line-height: 1.05469;
     text-transform: uppercase;
     text-align: center;
-    color: white;
-    position: absolute;
-    margin-left: 496px;
-    margin-top: 242px;
+    color: white;;
 }
 .textmask1{
     font-family: 'Roboto';
@@ -123,19 +115,13 @@ body{
     text-transform: uppercase;
     text-align: center;
     color: white;
-    float: left;
-    position: absolute;
-    margin-left: 860px;
-    margin-top: 550px;
+    margin-top: 465px;
 }
 .menu{
     background-color: white;
     border-radius: 30px;
     width: 928px;
     height: 64px;
-    position: absolute;
-    margin-left: 495px;
-    margin-top: 765px;
 }
 .menu > span:nth-child(1){
     font-family: 'Roboto';
@@ -709,5 +695,107 @@ body{
 }
 .news > .box4 > .top2 > img:nth-child(3){
     margin-left: 76px;
+    margin-top: 220px;
+}
+.news > .box4 > .top3{
+    background-image: url(../img/plush3.png);
+    background-repeat: no-repeat;
+    width: 256px;
+    height: 256px;
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-top: -32px;
+    float: left;
+}
+.news > .box4 > .top3 > span:nth-child(1){
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 157px;
+}
+.news > .box4 > .top3 > span:nth-child(2){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 219px;
+}
+.news > .box4 > .top3 > img:nth-child(3){
+    margin-left: 76px;
+    margin-top: 220px;
+}
+.news > .box4 > .top4{
+    background-image: url(../img/plush4.png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 544px;
+    height: 256px;
+    float: left;
+    margin-left: 32px;
+    margin-top: -32px;
+}
+.news > .box4 > .top4 > span:nth-child(1){
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    margin-left: 303px;
+    margin-top: 58px;
+}
+.news > .box4 > .top4 > span:nth-child(2){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    color: white;
+    position: absolute;
+    margin-left: 303px;
+    margin-top: 182px;
+}
+.news > .box4 > .top4 > img:nth-child(3){
+    margin-left: 359px;
+    margin-top: 183px;
+}
+.news > .box4 > .top5{
+    background-image: url(../img/plush5.png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 256px;
+    height: 256px;
+    float: left;
+    margin-left: 32px;
+    margin-top: -32px;
+}
+.news > .box4 > .top5 > span:nth-child(1){
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 136px;
+}
+.news > .box4 > .top5 > span:nth-child(2){
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 219px;
+}
+.news > .box4 > .top5 > img:nth-child(3){
+    margin-left: 108px;
     margin-top: 220px;
 }
