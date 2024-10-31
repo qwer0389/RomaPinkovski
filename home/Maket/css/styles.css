@@ -353,7 +353,7 @@ body{
 .box3{
     width: 1920px;
     height: 1279px;
-    background-image: url(/home/Maket/img/box3.png);
+    background-image: url(../img/box3.png);
     background-repeat: no-repeat;
     float: left;
 }
@@ -683,7 +683,7 @@ body{
 .news > .box4 > .top2{
     width: 256px;
     height: 256px;
-    background-image: url(/home/Maket/img/plush2.png);
+    background-image: url(../img/plush2.png);
     background-repeat: no-repeat;
     margin-left: 1264px;
 }
