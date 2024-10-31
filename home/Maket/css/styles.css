@@ -683,11 +683,8 @@ body{
 .news > .box4 > .top2{
     width: 256px;
     height: 256px;
-<<<<<<< HEAD
     background-image: url(../img/plush2.png);
-=======
     background-image: url(/home/Maket/img/plush2.png);
->>>>>>> 48c7cdece7e72b98d2666d94f719619c70e15279
     background-repeat: no-repeat;
     margin-left: 1264px;
 }
