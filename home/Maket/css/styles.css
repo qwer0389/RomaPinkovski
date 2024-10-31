@@ -651,7 +651,7 @@ body{
 .news > .box4 > .top1{
     width: 256px;
     height: 320px;
-    background-image: url(/home/Maket/img/plush1.png);
+    background-image: url(../img/plush1.png);
     background-repeat: no-repeat;
     margin-left: 32px;
     float: left;
@@ -684,7 +684,7 @@ body{
     width: 256px;
     height: 256px;
     background-image: url(../img/plush2.png);
-    background-image: url(/home/Maket/img/plush2.png);
+    background-image: url(../img/plush2.png);
     background-repeat: no-repeat;
     margin-left: 1264px;
 }
