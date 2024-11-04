@@ -219,7 +219,7 @@ div.popular_hotel{
     float: left;
     width: 460px;
     height: 340px;
-    background: url('../img/plashka.png') no-repeat, url('../img/manuel.jpg') center center no-repeat;
+    background: url('../img/plashka.png') no-repeat, url('../img/ritz.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -228,7 +228,7 @@ div.popular_hotel{
     float: left;
     width: 544px;
     height: 400px;
-    background: url('../img/plashka.png') no-repeat, url('../img/oswald.jpg') center center no-repeat;
+    background: url('../img/plashka.png') no-repeat, url('../img/ritzcalton.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -236,7 +236,7 @@ div.popular_hotel{
     float: right;
     width: 460px;
     height: 340px;
-    background: url('../img/plashka.png') no-repeat, url('../img/edvin.jpg') center center no-repeat;
+    background: url('../img/plashka.png') no-repeat, url('../img/riztcalt.jpg') center center no-repeat;
     background-size: cover;
 }
 
