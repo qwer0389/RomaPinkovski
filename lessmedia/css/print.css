@@ -1,0 +1,7 @@
+@media print{
+    h1{
+        text-decoration: overline;
+        color: chartreuse;
+        font-style: italic;
+    }
+}

@@ -1,0 +1,19 @@
+@media all and (max-width: 650px){
+    .menu{
+        background-color: green;
+        height: 300px;
+        width: 50%;
+        float: left;
+    }
+    .banner{
+        background-color: blue;
+        height: 300px;
+        width: 50%;
+        float: right;
+    }
+    .content{
+        background-color: aqua;
+        width: 100%;
+        display: table-cell;
+    }
+}

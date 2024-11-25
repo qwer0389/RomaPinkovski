@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(img/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+}
+
+.item img{
+    width: 90px;
+    height: 36px;
+}
+
+.item div{
+    border: 1px solid #d9d9d9;
+    width: 40px;
+    height: 0px;
+    transform: rotate(-90deg);
+}
+
+.item p{
+    font-family: 'Cuprum';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #fff;
+}
+
+.item1{
+    font-family: 'Cuprum';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 123%;
+    color: #fff;
+}
+
+.item1 ul{
+    list-style: none;
+    display: flex;
+}
+
+.item1 li:first-child{
+    padding: 15px 24px;
+    width: 151px;
+    height: 44px;
+}
+
+.item1 li:nth-child(2){
+    padding: 15px 24px;
+    width: 143px;
+    height: 44px;
+}
+
+.item1 li:nth-child(3){
+    padding: 15px 24px;
+    width: 99px;
+    height: 44px;
+}
+
+.item1 li:last-child{
+    padding: 15px 24px;
+    width: 111px;
+    height: 44px;
+}
+
+.item2{
+    display: flex;
+    align-items: center;
+}
+
+.item2 div{
+    border: 1px solid #d9d9d9;
+    width: 40px;
+    height: 0px;
+    transform: rotate(-90deg);
+}
+
+.item2 button{
+    border: none;
+    border-radius: 10px;
+    padding: 8px 24px;
+    width: 187px;
+    height: 56px;
+    background: #f8b806;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 123%;
+    color: #242424;
+}
+
+.container1{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container1 h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 123%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.container1 p{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 123%;
+    color: #fff;
+}
+
+.container1 button{
+    border: none;
+    border: 1px solid #979797;
+    border-radius: 16px;
+    padding: 19px 24px;
+    width: 260px;
+    height: 60px;
+    background: #fff;
+}
+
+.container1 img{
+    width: 714px;
+    height: 506px;
+}
+
+.box{
+    display: flex;
+}
+

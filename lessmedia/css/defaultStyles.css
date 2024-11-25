@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: red;
+    height: 50px;
+}
+
+.undercont{
+    background-color: brown;
+}
+
+.menu{
+    background-color: green;
+    height: 300px;
+    width: 200px;
+    float: left;
+}
+
+.banner{
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+    float: right;
+}
+
+.content{
+    background-color: aqua;
+    margin: 0 200px;
+}
+
+.clear{
+    clear: both;
+}
+
+.footer{
+    background-color: violet;
+    height: 50px;
+}

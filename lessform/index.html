@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="http://fe.it-academy.by/TestForm.php">
+    <fieldset>
+        <legend>Личные данные</legend>
+        <input type="text" name="surname" placeholder="Фамилия" maxlength="25" autofocus required>
+        <br>
+        <input type="text" name="name" placeholder="Имя" maxlength="20" required>
+        <br>
+        <input type="text" name="lastname" placeholder="Отчество" maxlength="24" required>
+        <fieldset>
+            <legend>Паспортные данные</legend>
+            <input type="text" name="seria" maxlength="2">
+            <input type="text" name="nomer" maxlength="">
+        </fieldset>
+        <fieldset>
+            <legend>Дата рождения</legend>
+            <input type="text" name="year" maxlength="4" placeholder="2000г.">
+            <br>
+            <select name="mounth">
+                <option value="1">Январь</option>
+                <option value="2">Февраль</option>
+                <option value="3">Март</option>
+                <option value="4">Апрель</option>
+                <option value="5">Май</option>
+            </select>
+            <br>
+            <input type="text" name="date" maxlength="2" placeholder="Дата">
+        </fieldset>
+        <select name="nationality" required>
+            <option value="belorus">РБ</option>
+            <option value="russian">РФ</option>
+            <option value="poland">ПЛ</option>
+            <option value="ukraine">УКР</option>
+        </select>
+        <p>Адресс:</p>
+        <textarea name="adress"cols="40" rows="3"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Интересы</legend>
+        <fieldset>
+            <legend>Хобби</legend>
+            <input type="checkbox" name="fish"> Рыбалка <br>
+            <input type="checkbox" name="astronomy"> Астрономия <br>
+            <input type="checkbox" name="diving"> Дайвинг <br>
+            <input type="checkbox" name="marks"> Марки <br>
+        </fieldset>
+        <fieldset>
+            <legend>Домашние животные</legend>
+            <select name="animals" size="9" multiple>
+                <optgroup label="Попугаи">
+                <option value="1">Попугай</option>
+                <option value="2">Ара</option>
+                <option value="3">Неразлучник</option>
+                </optgroup>
+                <optgroup label="Рыба">
+                <option value="4">Караси</option>
+                <option value="5">Окуни</option>
+                <option value="6">Осетр</option>
+                </optgroup>
+                <optgroup label="Птицы">
+                <option value="7">Стая ворон</option>
+                <option value="8">Аист</option>
+                <option value="9">Археоптерикс</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend>Данные для входа и восстановление пароля</legend>
+        <input type="text" name="login" minlength="5" required placeholder="Логин">
+        <br>
+        <input type="text" name="password" minlength="10" required placeholder="Пароль">
+    </fieldset>
+    <fieldset>
+        <legend>Координаты:</legend>
+        <input type="text" name="email" placeholder="Введите адрес электронной почты">
+        <br>
+        <input type="text" name="url" placeholder="Введите адрес сайта">
+    </fieldset>
+    <fieldset>
+        <legend>Цифры</legend>
+        <input type="text">
+    </fieldset>
+    </form>
+</body>
+</html>
