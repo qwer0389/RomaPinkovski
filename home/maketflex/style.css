@@ -108,6 +108,8 @@
     width: 1200px;
     display: flex;
     margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 204px;
 }
 
 .container1 h1{
@@ -138,11 +140,13 @@
 }
 
 .container1 img{
-    width: 714px;
-    height: 506px;
+    width: 574px;
+    height: 416px;
 }
 
 .box{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 

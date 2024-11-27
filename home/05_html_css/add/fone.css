@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background: url(../base/ball3.png) no-repeat top left,
+    url(../base/ball3.png) no-repeat bottom left,
+    url(../base/ball3.png) no-repeat top 0px right 200px,
+    url(../base/ball3.png) no-repeat bottom 0px right 200px,
+    url(../base/ball3.png) no-repeat bottom 0px right 100px,
+    url(../base/ball3.png) no-repeat top 0px right 100px,
+    url(../base/ball3.png) no-repeat top right,
+    url(../base/ball3.png) no-repeat bottom right,
+    url(right.pn) right top repeat-y,
+    url(fonball.png) no-repeat 20% top,
+    url(fonball.png) no-repeat 20% bottom,
+    url(fon.png) 20% top repeat-y"
+}
+.menu{
+    width: 20%;
+    float: left;
+}
+.banner{
+    width: 200px;
+    float: right;
+}
+.content{
+    margin-left: 20%;
+    margin-right: 205px;
+}
+.clear{
+    clear: both;
+}
