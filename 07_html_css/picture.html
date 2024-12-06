@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;
+        padding: 0;
+    box-sizing: border-box;}
+        body{background-color: rgb(80, 200, 255);}
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .head{margin:20px 20px;}
+        .content{text-align: center;}
+
+    </style>
+</head>
+
+<body>
+    <h1>Тег &lt;picture&gt;</h1>
+    <div class="head"><p>Тег &lt;picture&gt; позволяет разработчикам указать несколько источников изображения для различных
+        устройств и
+        разрешений экрана, чтобы браузер мог выбрать подходящее изображение в зависимости от возможностей устройства
+        пользователя.</p><br>
+    <p>Внутри тега  &lt;picture&gt;  находятся один или несколько элементов
+            &lt;source&gt; и один &lt;img&gt;. Каждый
+            &lt;source&gt; содержит атрибуты, указывающие различные источники изображения с разными параметрами, такими как
+            размеры, разрешение или тип файла. Браузер использует эти источники для выбора наиболее подходящего
+            изображения, которое соответствует текущим характеристикам устройства, и отображает его. Если ни один из
+            элементов
+            &lt;source&gt; не удовлетворяет условиям, используется тег &lt;img&gt; с его исходным изображением.</p><br>
+            <p>Далее будет показан пример изменения изображений при изменении разрешения экрана на 1000px, 900px, 700px.</p>
+        </div>
+    <div class="content">
+         <picture>
+            <source srcset="2.png" media="(max-width: 700px)" >
+            <source srcset="" media="(max-width: 900px)">
+            <source srcset="" media="(max-width:1000px )">
+            <img src="img/1.png" alt="1">
+        </picture>
+    </div>
+   
+</body>
+
+</html>

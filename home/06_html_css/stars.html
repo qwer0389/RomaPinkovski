@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0 auto;
+            
+        }
+        .wrap{
+            margin-top: 200px;
+            margin-right: 200px;
+        }
+        .stars{
+            margin: 15px;  
+            background: url('img/star.png') no-repeat;
+            width: 80px;
+            height: 80px;
+            float: right;
+
+        }
+        .stars:hover{
+            cursor: grab;
+        }
+        .stars:hover {
+            content: url('img/star1.png');
+        }
+        .stars:hover ~ ::before{
+            
+            content: url('img/star1.png');
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        
+    </div>
+</body>
+</html>

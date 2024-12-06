@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: cyan;
+}
+
+.header > h1 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+.main {
+    background: url(line.jpg) repeat-y top left;
+}
+
+.menu {
+    width: 200px;
+    float: left;
+}
+
+.menu > h3 {
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu > ul {
+    margin: 20px 40px;
+    font-size: 20px;
+}
+
+.content {
+    background: url(ball3.png) repeat-y right top;
+    margin-left: 200px;
+}
+
+.text{
+    background-color: #ffffffcc;
+}
+
+.text > h3{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.text > img{
+    float: left;
+    margin: 20px;
+}
+
+.text > p{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.clear{
+    clear: both;
+}
+
+.bottom{
+    text-align: center;
+    padding: 20px;
+    background-color: aqua;
+}
+.bottom > h2{
+    color: blue;
+    text-transform: uppercase;
+}

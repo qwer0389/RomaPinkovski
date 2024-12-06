@@ -1,0 +1,30 @@
+@media all and (max-width: 700px) {
+    .content {
+        text-align: center;
+    }
+
+    div.content img {
+        float: none;
+    }
+}
+
+@media all and (max-width: 500px) {
+    div.wrap {
+        background: lightyellow;
+    }
+
+    div.menu {
+        background-color: lightyellow;
+        float: none;
+        width: 100%;
+    }
+
+    div.menu h3 {
+        margin-top: 0px;
+    }
+
+    div.content {
+        background: #ffffffcc;
+        margin-left: 0px;
+    }
+}
