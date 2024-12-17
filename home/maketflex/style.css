@@ -755,11 +755,7 @@
 
 .box2{
     margin-left: 20px;
-}
-
-.container6 img{
-    width: 500px;
-    height: 350px;
+    padding-bottom: 20px;
 }
 
 .box2 h4{
@@ -805,4 +801,140 @@
     font-weight: 500;
     font-size: 16px;
     color: #242424;
+
+}
+
+.wrap_box{
+    width: 600px;
+    height: 300px;
+    background: url(img/Frame\ 229.png) no-repeat;
+    background-size: cover;
+}
+
+.wrap_box1{
+    display: flex;
+}
+
+.allForLive{
+    background-color: #242424;
+}
+
+.container7{
+    margin: auto;
+    width: 1200px;
+}
+
+.container7 h3{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 40px;
+}
+
+.box3{
+    display: flex;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.box3 span{
+    font-family: 'Tektur', sans-serif;
+    font-weight: 700;
+    font-size: 217px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.box3 p::before{
+    content: "“";
+    font-weight: 700;
+    font-size: 217px;
+    font-family: "Tektur", sans-serif;
+    color: #fff;
+    position: absolute;
+    top: -80px;
+}
+
+.box3 p::after{
+    content: "“";
+    font-weight: 700;
+    font-size: 217px;
+    font-family: "Tektur", sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 220px;
+    left: 400px;
+}
+
+.box3 p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    align-self: center;
+}
+
+.box4{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-bottom: 30px;
+}
+
+.box4 li{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #797979;
+    transition: 0.1s;
+    color: white;
+}
+
+.box4 li:hover{
+    background: #F8B806;
+    color: #000;
+    cursor: pointer;
+}
+
+.box5 img{
+    width: 1200px;
+    padding-bottom: 50px;
+}
+
+.flatsBuySell{
+    background-color: #242424;
+}
+
+.container8{
+    margin: auto;
+    width: 1200px;
+}
+
+.container8 h3{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 58px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.box_img h4{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.box_img p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
 }
