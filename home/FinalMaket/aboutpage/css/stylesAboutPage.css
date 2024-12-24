@@ -457,6 +457,11 @@ header {
 
 }
 
+.third_box2{
+    display: flex;
+    flex-direction: column;
+}
+
 .third_box2 a {
     text-decoration: none;
     text-decoration: none;
@@ -470,9 +475,9 @@ header {
     transition-property: transform;
 }
 
-.third_block2 a:hover,
-.third_block2 a:focus,
-.third_block2 a:active {
+.third_box2 a:hover,
+.third_box2 a:focus,
+.third_box2 a:active {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
     cursor: pointer;
