@@ -1,4 +1,4 @@
-@media all and (max-width: 850px){
+@media all and (max-width: 450px){
     .container_header {
         width: 600px;
     }
@@ -94,5 +94,75 @@
         background-color: var(--grey-10);
         padding-bottom: 150px;
         width: 100vh;
+    }
+
+    .five_sect {
+        background-color: var(--grey-10);
+        padding-bottom: 150px;
+        width: 100vh;
+    }
+
+    .fivebox1_item2 {
+        width: 400px;
+        height: 500px;
+    }
+
+    .fivebox1_item1 {
+        width: 400px;
+        height: 500px;
+    }
+
+    .fivebox2_item1 {
+        width: 400px;
+        height: 500px;
+    }
+
+    .fivebox2_item2 {
+        width: 400px;
+        height: 500px;
+    }
+
+    .four1_item2 {
+        width: 375px;
+        padding: 30px;
+        height: 297px;
+    }
+
+    .four1_item1 {
+        width: 375px;
+        padding: 30px;
+        height: 297px;
+    }
+
+    .four2_item1 {
+        width: 375px;
+        padding: 30px;
+        height: 297px;
+    }
+
+    .four2_item2 {
+        width: 375px;
+        padding: 30px;
+        height: 297px;
+    }
+
+    .wrap_testimonials {
+        width: 600px;
+        margin: auto;
+    }
+
+    .second_buttons{
+        margin-top: 20px;
+    }
+
+    .six_box1 {
+        display: flex
+    ;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sixbox2_item1 div {
+        margin-top: -6px;
     }
 }
