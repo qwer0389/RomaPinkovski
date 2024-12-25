@@ -316,5 +316,11 @@
 
     *{
         height: auto;
+      
+    }
+
+    .currency_support_wrap {
+        width: auto;
+        margin: auto;
     }
 }
