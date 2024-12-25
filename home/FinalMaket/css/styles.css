@@ -30,9 +30,6 @@
     --grey-75: #bfbfbf;
 }
 
-html {
-    overflow-x: hidden;
-}
 
 body{
     background-color: var(--grey-10);
@@ -2080,4 +2077,8 @@ justify-content: space-between;
 
 .bar_icons a span:hover{
     transform: scale(0.9);
+}
+
+.navbar{
+    display: none;
 }

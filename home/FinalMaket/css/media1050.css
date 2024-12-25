@@ -303,4 +303,14 @@
     .footer_bar {
         width: 800px;
     }
+
+    .strings {
+        position: absolute;
+        margin-left: 40px;
+        overflow-x: hidden;
+    }
+
+    .signUp a {
+        margin-right: 0px;
+    }
 }

@@ -1,0 +1,45 @@
+@media all and (max-width: 850px){
+    .container_header {
+        width: 600px;
+    }
+
+    .nav_bar {
+        width: 600px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .nav_bar{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+    }
+
+    .signUp a {
+        margin-right: 0px;
+    }
+
+    .navbar{
+        border-radius: 25px;
+    width: 600px;
+    margin: auto;
+    }
+
+    .container1 {
+        width: 600px;
+    }
+
+    .bg_image {
+        background-image: url(../img/Group.png);
+        background-repeat: no-repeat;
+        height: 160px;
+    }   
+}
