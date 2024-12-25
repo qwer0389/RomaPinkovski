@@ -1,0 +1,36 @@
+@media all and (max-width: 1360px){
+    .container_header {
+        width: 1000px;
+    }
+    .nav_bar {
+        width: 1000px;
+    }
+    .container1 {
+        width: 1000px;
+    }
+
+    .swiper-slide a{
+        width: 415px;
+    }
+
+    .swiper-container {
+        width: 415px;
+    }
+    
+    .exchanger{
+        width: 415px;
+    }
+
+    .button_exchange button{
+        width: 415px;
+    }
+
+    .currency_support {
+        margin-left: 800px;
+        bottom: 40px;
+    }
+
+    .box_transaction{
+        width: 485px;
+    }
+}
