@@ -1,0 +1,306 @@
+@media all and (max-width: 1050px) {
+    .container_header {
+        width: 800px;
+    }
+
+    .nav_bar {
+        width: 800px;
+    }
+
+    .textlogo {
+        width: 90px;
+    }
+
+    .container1 {
+        width: 800px;
+    }
+
+    .notice {
+        left: 250px;
+        bottom: -20px;
+    }
+
+    .swiper-slide a {
+        width: 355px;
+    }
+
+    .exchanger {
+        width: 355px;
+    }
+
+    .button_exchange button {
+        width: 355px;
+    }
+
+    .box_transaction {
+        width: 425px;
+        height: 614px;
+    }
+
+    .currency_support {
+        margin-left: 552px;
+        bottom: 0px;
+    }
+
+    .wrap_ourProducts {
+        width: 800px;
+    }
+
+    .wrap_useCases {
+        width: 800px;
+    }
+
+    .third_block2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third_box1 {
+        border-radius: 20px;
+        padding: 50px;
+        width: 800px;
+        height: 534px;
+        background: var(--grey-11);
+        margin-top: 80px;
+    }
+
+    .third_wrap1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .wrap1_item1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid var(--grey-15);
+        border-radius: 16px;
+        padding: 30px;
+        width: 314px;
+        height: 222px;
+        background: var(--grey-10);
+    }
+
+    .wrap1_item2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid var(--grey-15);
+        border-radius: 16px;
+        padding: 30px;
+        width: 314px;
+        height: 222px;
+        background: var(--grey-10);
+    }
+
+    .third_wrap2 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .wrap2_item3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid var(--grey-15);
+        border-radius: 16px;
+        padding: 30px;
+        width: 314px;
+        height: 192px;
+        background: var(--grey-10);
+    }
+
+    .wrap2_item4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid var(--grey-15);
+        border-radius: 16px;
+        padding: 30px;
+        width: 314px;
+        height: 192px;
+        background: var(--grey-10);
+    }
+
+    .third_box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 748px;
+        height: 473px;
+        margin-top: 80px;
+    }
+
+    .third_block3 {
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+        padding-bottom: 150px;
+        flex-direction: column;
+    }
+
+    .third_box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 748px;
+        height: 473px;
+    }
+
+    .third_box4 {
+        border-radius: 20px;
+        padding: 50px;
+        width: 748px;
+        height: 534px;
+        background: var(--grey-11);
+    }
+
+    .wrap7_item1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid var(--grey-15);
+        border-radius: 16px;
+        padding: 30px;
+        width: 314px;
+        height: 222px;
+        background: var(--grey-10);
+    }
+
+    .wrap7_item2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid var(--grey-15);
+        border-radius: 16px;
+        padding: 30px;
+        width: 314px;
+        height: 222px;
+        background: var(--grey-10);
+    }
+
+    .wrap8_item1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid var(--grey-15);
+        border-radius: 16px;
+        padding: 30px;
+        width: 314px;
+        height: 222px;
+        background: var(--grey-10);
+    }
+
+    .wrap8_item2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid var(--grey-15);
+        border-radius: 16px;
+        padding: 30px;
+        width: 314px;
+        height: 222px;
+        background: var(--grey-10);
+    }
+
+    .wrap_ourFeatures {
+        width: 800px;
+        margin: auto;
+    }
+
+    .fourwrap_block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .four_box1 {
+        border-radius: 10px;
+        padding: 45px;
+        width: 800px;
+        height: 137px;
+        flex-direction: row;
+    }
+
+    .four_box1 button {
+        border: 1px solid var(--grey-15);
+        border-radius: 100px;
+        padding: 14px 20px;
+        width: 225px;
+        height: 49px;
+        font-size: 16px;
+    }
+
+    .four_wrap1 {
+        display: flex
+    ;
+        justify-content: space-between;
+    }
+
+    .four_wrap2 {
+        display: flex
+    ;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    .four_box2{
+        margin-top: 30px;
+    }
+
+    .wrap_askQuestions {
+        width: 800px;
+        margin: auto;
+    }
+
+    .fivebox1_item1{
+        width: 400px;
+        height: 320px;
+    }
+
+    .fivebox1_item2{
+        width: 400px;
+        height: 320px;
+    }
+
+    .fivebox2_item1{
+        width: 400px;
+        height: 320px;
+    }
+
+    .fivebox2_item2{
+        width: 400px;
+        height: 320px;
+    }
+
+    .wrap_testimonials {
+        width: 800px;
+        margin: auto;
+    }
+
+    .sixbox2_item2{
+        display: none;
+    }
+
+    .six_block2 {
+        width: 800px;
+    }
+
+    .wrap_footer {
+        width: 800px;
+    }
+
+    .footer_bar {
+        width: 800px;
+    }
+}

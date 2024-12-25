@@ -26,7 +26,7 @@
     }
 
     .currency_support {
-        margin-left: 800px;
+        margin-left: 640px;
         bottom: 0px;
     }
 
@@ -317,5 +317,19 @@
 
     .footer_bar {
         width: 1000px;
+    }
+
+    .currency_support_wrap {
+        width: 1000px;
+    }
+
+    .strings {
+        position: absolute;
+        margin-left: 100px;
+        overflow-x: hidden;
+    }
+
+    .footer{
+        padding: 0;
     }
 }
