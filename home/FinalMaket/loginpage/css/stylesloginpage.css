@@ -2004,7 +2004,7 @@ header {
 .box_login {
     border: 1px solid var(--grey-15);
     border-radius: 20px;
-    padding: 100px 150px;
+    padding: 50px 150px;
     width: 1326px;
     height: 700px;
     background: url("../img/Login.jpg");
