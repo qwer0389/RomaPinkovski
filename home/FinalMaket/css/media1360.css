@@ -27,10 +27,85 @@
 
     .currency_support {
         margin-left: 800px;
-        bottom: 40px;
+        bottom: 0px;
     }
 
     .box_transaction{
         width: 485px;
+    }
+
+    .wrap_ourProducts {
+        width: 1000px;
+    }
+
+    .header_block1 h2 {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 38px;
+        color: var(--absolute-white);
+    }
+
+    .header_block1 p {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 16px;
+        color: var(--grey-70);
+        margin-top: 15px;
+    }
+
+    .first_block1 h1{
+        font-size: 38px;
+    }
+
+    .first_block1 p{
+        font-size: 16px;
+    }
+
+    .first_block1 h1{
+        margin-top: 50px;
+    }
+
+    .first_block1 p{
+        margin-top: 54px;
+    }
+
+    .notice{
+        left: -60px;
+    bottom: -20px;
+    }
+
+    .first_block1{
+        width: 510px;
+    }
+
+    .first_block2 {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_item1 h4{
+        font-size: 20px;
+    }
+
+    .second_item2 h4{
+        font-size: 20px;
+    }
+
+    .second_item3 h4{
+        font-size: 20px;
+    }
+
+    .second_item1 p{
+        margin-top: 20px;
+
+    }
+
+    .second_item2 p{
+        margin-top: 20px;
+    }
+
+    .second_item3 p{
+        margin-top: 20px;
     }
 }
