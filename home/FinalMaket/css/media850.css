@@ -1,4 +1,4 @@
-@media all and (max-width: 450px){
+@media all and (max-width: 850px){
     .container_header {
         width: 600px;
     }
@@ -164,5 +164,9 @@
 
     .sixbox2_item1 div {
         margin-top: -6px;
+    }
+
+    *{
+        width: auto;
     }
 }

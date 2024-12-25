@@ -253,6 +253,8 @@ height: 292px;
         padding: 12px 20px;
         transition: 1s;
     }
-
+    *{
+        height: auto;
+    }
 
 }
